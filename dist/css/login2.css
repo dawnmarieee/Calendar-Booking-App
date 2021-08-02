@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: rgb(240, 243, 255);
+      
+}
+.hold-transition {
+    padding: 5px;
+}
+.login-page {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+    
+}
+
+
+h3 {
+    font-family: 'Poppins', arial, sans-serif;
+    font-weight: 900; 
+    font-style: italic; 
+    color: rgb(6,16,88);
+    text-align:center;
+    line-height: 150%;
+}
+.login-box {
+    font-family: 'Poppins', arial, sans-serif;
+    border-radius: 80px;
+    background-color: transparent;
+    grid-area: 2 / 2 / 2 / 2;
+    position: relative;
+    display:grid;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(231,239,252);
+    box-shadow:  10px 15px 20px rgba(255, 255, 255, 0.9),
+                -6px -5px 10px rgba(182, 182, 182, 0.3);
+                   
+}
+
+h4 {
+    font-family: 'Poppins', arial, sans-serif;
+    font-weight: 500; 
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.login-logo {
+    text-shadow: 1px 1px 4px rgba(6, 5, 10, 0.3);
+    margin-top: 30px;
+    font-family: 'Poppins', arial, sans-serif;
+    grid-area: 1 / 2 / 1 / 2;
+    padding: 20px;
+    background-color:transparent;
+}
+.login-box-body {
+    font-family: 'Poppins', arial, sans-serif;
+    grid-area: 2 / 2 / 3 / 2;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    background-color: transparent;
+}
+.login-box-msg {
+    padding: 20px;
+}
+.form-group {
+    border-radius: 80px;
+    margin: 20px;
+    font-family: 'Poppins', arial, sans-serif;
+}
+.glyphicon {
+    padding: 5px;
+}
+
+.col-xs-4 {
+    
+    padding: 5px;
+    margin-bottom: 10%;
+}
